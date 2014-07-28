@@ -10,5 +10,5 @@
 	<context:component-scan base-package="org.springsamples.sample">
 	</context:component-scan>
 		
-	<tx:annotation-driven proxy-target-class="false"/>
+	<tx:annotation-driven proxy-target-class="true"/>
 </beans>
